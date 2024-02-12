@@ -40,7 +40,7 @@ const HeroSection = () => {
                         </span>
                         based in Addis Ababa, Ethiopia
                         Ethiopia with a strong foundation in detail design drawing and a keen eye for detail design. I specialize 3D render visualization 
-                        and user-friendly architectural softwares that deliver a seamless and engaging user experience."
+                        and user-friendly architectural softwares that deliver a seamless and engaging user experience.
                     </p>
                     <Link
                       to="projects"
