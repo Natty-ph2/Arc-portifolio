@@ -22,25 +22,25 @@ const HeroSection = () => {
     return (
         <section id="home">
             <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-52">
-                <div className="md:w-1/2 md:mt-2">
+                <div className="md:w-1/2 md:mt-2 ">
                     <Image 
-                         src="/nth.jpg" 
+                         src="/ay3.jpeg" 
                          alt="" 
-                         width={300} 
-                         height={300}
+                         width={400} 
+                         height={350}
                          className="aspect-square object-cover rounded-full shadow-2xl" 
                          />
                 </div>
                 <div className="md:mt-2 md:w-3/5">
-                    <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">Hi, I&#39;m Natty</h1>
+                    <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">Hi, I&#39;m Ayalkbet</h1>
                     <p className="text-lg mt-4 mb-6 md:text-2xl"> 
                         I&#39;m a Passionate and creative{" "}
                         <span className="font-semibold text-teal-600">
-                        front-end developer{" "}
+                        Architect and interior Designer{" "}
                         </span>
                         based in Addis Ababa, Ethiopia
-                          with a strong foundation in web technologies and a keen eye for design. 
-                        I specialize in building responsive and user-friendly web applications that deliver a seamless and engaging user experience.
+                        Ethiopia with a strong foundation in detail design drawing and a keen eye for detail design. I specialize 3D render visualization 
+                        and user-friendly architectural softwares that deliver a seamless and engaging user experience."
                     </p>
                     <Link
                       to="projects"

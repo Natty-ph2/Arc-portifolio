@@ -2,20 +2,27 @@ import Image from "next/image"
 
 const AboutSection = () => {
 
+
+      
+
+
     const skills = [
-        { skill: "HTML"},
-        { skill: "CSS"},
-        { skill: "Javascript"},
-        { skill: "React.js"},
-        { skill: "Next.js"},
-        { skill: "Tailwind css"},
-        { skill: "Java"},
-        { skill: "Git"},
-        { skill: "GitHub"},
+        { skill: "SKETCH UP"},
+        { skill: "ARCHICAD"},
+        { skill: "AUTOCAD"},
+        { skill: "Revit"},
+        { skill: "3d max"},
+        { skill: "Rhinoceros"},
+        { skill: "ADOBE ILLUSTRATOR"},
+        { skill: "ADOBE PHOTOSHOP"},
+        { skill: "TWINMOTION"},
+        { skill: "LUMION"},
 
 
     ]
     return (
+
+         
         <section id="about">
             <div className="my-12 pb-12 md:pt-16 md:pb-48">
                 <h1 className="text-center text-bold text-4xl">About Me
@@ -27,30 +34,28 @@ const AboutSection = () => {
                         <h1 className="text-center text-2xl font-bold mb-6 md:text-left">Get to Know me</h1>
                         <p>
                             {" "}
-                            Hi, my name is Natty and I am a{" "}
+                            Hi, my name is Ayalkbet and I am{" "}
                             <span className="font-bold">{"highly ambitious, "}</span>
                             <span className="font-bold">{"self-motivated "}</span> and
-                            <span className="font-bold">{" driven"}</span> front-end developer based in AA, Ethiopia
+                            <span className="font-bold">{" driven"}</span> Architect and  interior designer based in AA, Ethiopia
             
                         </p>
                         <br />
 
                         <p>
-                        I graduated from Adama Science and Technology University in 2022 with BSC in Computer Science and 
-                        engineering and have been working in the field ever since.
+                        I graduated from Wachemo University in 2022 with BSC in Architecture and have been working in the field ever since.
                         </p>
                         <br />
 
                         <p>
-                          I have also have lovely hobbies like reading, playing sports and
-                          playing Guitar and listening music, I am always seeking new experience
-                          and love to keep myself engaged and learning new things
+                        I have also have lovely hobbies like reading, playing sports and playing Guitar and listening music,
+                         I am always seeking new experience and love to keep myself engaged and learning new things
+
                         </p>
                         <br />
                         <p>
-                        Persistence in learning is indeed a key to success. It refers to the act of consistently putting effort into your
-                         learning journey despite obstacles or setbacks. When you are persistent in your learning path,
-                         you are more likely to achieve your goals and make progress.
+                        Persistence in learning is indeed a key to success. It refers to the act of consistently putting effort into you learning journey 
+                        despite obstacles or setbacks. When you persistent in the learning path, you are more likely to achieve your goals and make progress.
                         </p>
                         <br />
                         <p>
@@ -75,11 +80,11 @@ const AboutSection = () => {
                             })}
                         </div>
                          <Image 
-                            className="hidden aspect-square rounded-full object-fill md:block md:relative md:bottom-4 md:left-32  md:mt-12 md:z-0"
-                            src="/code.jpeg" 
+                            className="hidden aspect-square rounded-full object-fill border-none md:block md:relative md:bottom-4 md:left-32  md:mt-12 md:z-0 dark:bg-gray-400"
+                            src="/arc2.png" 
                             alt=""
-                            width={300}
-                            height={300}
+                            width={400}
+                            height={400}
                          />
                     </div>
                 </div>

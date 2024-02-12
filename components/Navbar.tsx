@@ -5,6 +5,7 @@ import { Link } from "react-scroll/modules";
 import { useTheme } from "next-themes";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { IoMdMenu, IoMdClose} from "react-icons/io";
+import DownloadFile from "./DownloadFile";
 
 
 interface NavItem {
@@ -24,6 +25,10 @@ const NAV_ITEMS: Array<NavItem> = [
     {
         label: "Projects",
         page: "projects",
+    },
+    {
+        label: "My Gallery",
+        page: "my-gallery",
     }
 ]
 
@@ -59,7 +64,7 @@ const Navbar = () => {
                 <h2 className="text-3xl  font-burtons cursor-pointer"
                            onClick={scrollToHome}
                 >
-                    Natnael Desta
+                    Ayalkbet Ertiban
                     </h2>
                     {/* <Link to="home">
                        <div className="md:py-5 md:block">
@@ -96,6 +101,8 @@ const Navbar = () => {
                     )
                 })}
 
+                    <DownloadFile />
+
                 {currentTheme === "dark" ? (
                     <button
                      onClick={() => setTheme("light")}
@@ -112,8 +119,11 @@ const Navbar = () => {
                     </button>
                    
                 )} 
+
+               
                </div>
             </div>
+            
             </div>
               
         </div>
